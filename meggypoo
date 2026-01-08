@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>For You ❤️</title>
+  <title>For my baby ❤️</title>
   <style>
     body {
       margin: 0;
@@ -13,7 +13,7 @@
       justify-content: center;
       font-family: 'Arial', sans-serif;
       text-align: center;
-      color: #fff;
+      color: #FFEA00;
     }
 
     .card {
@@ -40,13 +40,13 @@
       border: none;
       border-radius: 25px;
       background: #ff4d6d;
-      color: white;
+      color: yellow;
       cursor: pointer;
       transition: 0.3s;
     }
 
     button:hover {
-      background: #ff1f4a;
+      background: #FFEA00;
     }
 
     .heart {
@@ -65,18 +65,18 @@
 
   <div class="card">
     <h1>Hey ❤️</h1>
-    <p>You are my favorite person in the world 🥰</p>
-    <button onclick="showLove()">Click me 💕</button>
+    <p>You are my favorite person in the universe</p>
+    <button onclick="showLove()">click me 💕</button>
     <p id="message"></p>
   </div>
 
   <script>
     const messages = [
-      "I love you more every day 💖",
-      "You make my world brighter 🌸",
-      "I’m so lucky to have you 🥰",
-      "You are my happiness ❤️",
-      "Forever & always 💕"
+      "you looked so pretty today (you always do) 💖",
+      " i loved the makeup on you  🌸",
+      "the kameez was beautiful 🥰",
+      "the trousers were amazing too ❤️",
+      " sorry ajke enough compliment dei nai ill do better 💕"
     ];
 
     function showLove() {
